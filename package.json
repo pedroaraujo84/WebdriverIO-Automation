@@ -1,0 +1,30 @@
+{
+  "name": "webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroaraujo84/WebdriverIO-Automation.git"
+  },
+  "author": "Pedro Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroaraujo84/WebdriverIO-Automation/issues"
+  },
+  "homepage": "https://github.com/pedroaraujo84/WebdriverIO-Automation#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.1.2"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.1.2",
+    "@wdio/mocha-framework": "^7.1.2",
+    "@wdio/spec-reporter": "^7.1.1",
+    "@wdio/sync": "^7.1.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
