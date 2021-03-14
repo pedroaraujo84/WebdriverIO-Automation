@@ -1,7 +1,6 @@
-// Page Objects
 const GoogleMapsPage = require('../pageobjects/google.maps.page');
-// Helpers
 const userConsent = require('../../helpers/user.consent');
+
 const location = 'Dublin'
 
 describe('Given a user on google maps page', () => {
